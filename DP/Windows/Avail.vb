@@ -4,6 +4,7 @@ Public Class Avail
     Dim table As New DataTable("Table")
 
     Private Sub Avail_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Calls.Show()
         table.Columns.Add("UNITS")
         table.Columns.Add("STATUS")
         table.Columns.Add("EVENT#")
